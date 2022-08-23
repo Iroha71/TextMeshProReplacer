@@ -1,6 +1,10 @@
 # TextMeshProReplacer
 
 - 既にオブジェクトに取り付けられている`UnityEngine.UI.Text`コンポーネントを`TextMeshPro`に入れ替えるEditor拡張です。
+
+- **FontAsset名とFontファイル名は一致するようにしてください。**
+  - FontAssset Creatorを使用した場合、FontAsset名が「〇〇 SDF」というファイル名になっている場合があります。
+
 - [こちら](https://github.com/Iroha71/TextMeshProReplacer/releases/tag/Fix-TextmeshPro2)からUnityPackageをダウンロードできます。
 - こちらは [jackisgames/TextMeshProReplacer](https://github.com/jackisgames/TextMeshProReplacer)をもとにしたプロジェクトになっています。
 - 使い方の参考記事
