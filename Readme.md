@@ -6,9 +6,12 @@
 - 使い方の参考記事
   - <https://kan-kikuchi.hatenablog.com/entry/TextMeshPro_Migration>
 
-## できないこと / 未確認事項
+## できないこと
 
 - 非アクティブのオブジェクトに取り付けられているTextの入れ替え
+
+## 未確認事項
+
 - **Raplace All Scene**を使ったTextの入れ替え
 
 ## 確認環境
