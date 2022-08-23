@@ -25,8 +25,6 @@ namespace TextMeshProReplacer
             {
                 TextReplacer.ReplaceUnityText(canvasRenderer.GetComponent<Text>());
                 GUIUtility.ExitGUI();
-
-
             }
             GUILayout.EndHorizontal();
         }

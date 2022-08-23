@@ -16,19 +16,12 @@ namespace TextMeshProReplacer
         [MenuItem("Text Mesh Replacer/Replace Current Scene")]
         internal static void ReplaceCurrentScene()
         {
+            Text[] texts = GameObject.FindObjectsOfType<Text>();
 
-            GameObject[] rootGameObjects = SceneManager.GetActiveScene().GetRootGameObjects();
-            for (int i = 0; i < rootGameObjects.Length; i++)
+            foreach (Text text in texts)
             {
-                GameObject root = rootGameObjects[i];
-                for (int j = 0; j < root.transform.childCount; j++)
-                {
-                    Text text = root.transform.GetChild(j).GetComponent<Text>();
-                    if (text)
-                        ReplaceUnityText(text);
-                }
-            }
-                
+                ReplaceUnityText(text);
+            }    
         }
 
         [MenuItem("Text Mesh Replacer/Replace All Scene")]
